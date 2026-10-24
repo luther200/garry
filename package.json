@@ -22,13 +22,18 @@
   },
   "license": "ISC",
   "author": "luther200",
-  "type": "commonjs",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
+    "dev": "clear && nodemon . ",
+    "run": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "discord.js": "^14.27.0",
     "dotenv": "^18.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
